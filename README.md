@@ -12,10 +12,12 @@ The data input shall be a .csv file, and comply with the follwoing style:
 | XXXX | XXXX | Species A | X.X   | X.X    | X.X     | XX.XX            | XX.XX            | XX.XX            |
 
 
-The expected output is a map associated to a scrolldown menu that allows the user to select which ecosystem service to visualize.
-By clicking on each tree, a pop-up should show up detailing basic information of the tree.
-The colour of each dot should change depending on the intensity of the ecosystem service provided.
+The expected output is:
+* Main output is a map associated to a scroll-down menu that allows the user to select which ecosystem service to visualize.
+* The colour of each dot change depending on the intensity of the ecosystem service provided (scale used goes from green for lower intensities to red for higher intensities)
+* By clicking on each dot on the map, a pop-up appears providing some basic information about the tree.
+* Additionally, the violin + boxplot diagram to the right is linked to the visualized data, and provides insights into the data distribution.
 
-Final output:
 
-![image](https://github.com/juan-andriv/Ecosystem_Services_Interactive_Map/assets/163057641/04c8b417-82a3-4cb6-ab20-765c36777b3d)
+Example of final output.
+![Example image](https://github.com/juan-andriv/Ecosystem_Services_Interactive_Map/assets/163057641/ddf3c9c5-e958-4246-8319-f0df6bf7177a)
